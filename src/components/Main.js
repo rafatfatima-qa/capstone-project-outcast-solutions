@@ -5,7 +5,6 @@ import Profile from "./Profile";
 import Home from "./Home";
 import ProductList from "./ProductList";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-// import { HashRouter as Router, Switch, Route} from 'react-router-dom';
 import SignUp from "./SignUp";
 import SignIn from "./SignIn";
 import ForgotPassword from "./ForgotPassword";
@@ -17,7 +16,7 @@ import ReturnPolicy from "./ReturnPolicy";
 
 const Main = () => {
   return (
-    <Router basename={process.env.PUBLIC_URL>
+    <Router>
       <Switch>
         <Route exact path="/">
           <Home />
