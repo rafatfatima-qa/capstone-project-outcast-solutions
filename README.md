@@ -20,7 +20,8 @@ To run this app, click live github website link given below. OR
 open live server version of index.html in your browser.
 
 ## Repo Link:
-https://github.com/rafatfatima-qa/website-outcast-solutions
+https://github.com/rafatfatima-qa/capstone-project-outcast-solutions
+
 
 ## Live Link:
-https://rafatfatima-qa.github.io/website-outcast-solutions/
+https://rafatfatima-qa.github.io/capstone-project-outcast-solutions/
