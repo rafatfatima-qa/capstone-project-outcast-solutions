@@ -1,38 +1,320 @@
+body {
+  background-size: cover;
+  background-position: top center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .App {
   text-align: center;
+  background-size: cover;
+  background-position: top center;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ul {
+  padding-left: 0rem;
+}
+.nav-btn {
+  background-color: #ad1212;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #ffff !important;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  padding-left: 19px !important;
+  padding-right: 19px !important;
+  border-radius: 40px !important;
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 #9e9e9e17, 0 6px 20px 0 #63626230;
+}
+.btn {
+  background-color: #ad1212;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #ffff;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  margin: 10px 0px 0px 0px; /*top right bottom left */
+  padding-bottom: 10px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 #9e9e9e17, 0 6px 20px 0 #63626230;
+}
+.download-btn {
+  cursor: pointer;
+  box-shadow: 0 11px 36px #3f3f3f5b;
+}
+.btn-go {
+  background-color: #ad1212;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #ffff;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  margin: 0px 0px 0px 10px; /*top right bottom left */
+  padding-bottom: 10px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 4px;
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 #00000033;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.btn:hover {
+  background-color: #3c3b6e;
   color: white;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.social-media-footer {
+  text-align: center;
+  font-size: 30px;
+  padding-left: 1px;
+  margin-right: 14px;
+  padding-top: 20px;
+  cursor: pointer;
+}
+.footer-logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 48%;
+}
+.social-media-footer:hover {
+  color: #7a1616;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#Rectangle_61:hover {
+  fill: #7a1616;
+  cursor: pointer;
+}
+
+#Rectangle_60:hover {
+  fill: #7a1616;
+  cursor: pointer;
+}
+svg:hover {
+  fill: #7a1616;
+  cursor: pointer;
+}
+
+
+
+.payment-methods-footer {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.payment-methods-footer:hover {
+  color: #7a1616;
+  cursor: pointer;
+}
+.payment-methods-align-right {
+  text-align: right;
+}
+
+.card {
+  padding-top: 50px;
+  border: none;
+  border-radius: 0;
+}
+p {
+  font-size: smaller;
+}
+
+a {
+  color: cornsilk;
+  text-decoration: none;
+}
+.footer {
+  background-color: #3c3b6e;
+  color: cornsilk;
+}
+
+.footer-column-heading {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.home-page-heading {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 3rem;
+  margin-top: 3rem;
+  color: #3c3b6e;
+  font-weight: 700;
+}
+
+.home-page-text {
+  padding-top: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: x-large;
+}
+.home-page-section-text {
+  padding-top: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: x-large;
+  font-weight: bold;
+}
+.header-img {
+  margin-left: 6rem;
+  width: 370px;
+}
+.home-page-heading-span {
+  color: #ad1212;
+  font-weight: 700;
+}
+.section-heading {
+  text-align: center;
+}
+/*second section*/
+.second-section {
+  margin-top: 6rem;
+  background-color: #e1ebff4b;
+  padding: 32px 0 52px 0;
+  border-radius: 17px;
+}
+.second-section-heading,
+.third-section-heading {
+  font-weight: 700;
+  padding: 32px 0 32px 0;
+}
+.second-sec-icons {
+  font-size: 34px;
+  text-align: center;
+  display: block;
+}
+.cards {
+  border-radius: 16px;
+  box-shadow: 0px 3px 44px #a1a1a11f;
+  border: none;
+  background-color: #fffffff6;
+  max-width: 275px;
+  padding: 22px;
+  margin: 0 auto;
+  transition: 0.3s ease-in;
+}
+.cards:hover {
+  transform: scale(1.1);
+}
+
+/*Third section feature card*/
+.feature-card {
+  border: 0.1px solid #7070702d;
+  margin: 0 auto;
+}
+.feature-image {
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+.feature-card-price {
+  font-weight: 700;
+}
+.feature-card-btn {
+  border-radius: 4px;
+  background-color: #f3dfe1;
+  border: none;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1.1px;
+  color: #ad1212;
+  padding: 6px 13px 6px 13px;
+}
+/*Fourth Section*/
+.fourth-sec-img {
+  width: 320px;
+  float: right;
+}
+.fourth {
+  background-color: #3c3b6e;
+  color: #ffff;
+}
+/*Fiftht section*/
+.fifth-img {
+  position: absolute;
+  width: 100%;
+  height: 450px;
+}
+.zip {
+  z-index: 1;
+  padding-bottom: 50px;
+}
+.input-zipcode {
+  padding: 9px;
+  width: 20%;
+  border-radius: 5px;
+  border: 0.5px solid #474747;
+}
+.why-choose-us-section {
+  background-color: #9db5e0;
+}
+/*SignIn page*/
+.icon-img {
+  font-size: 53px;
+  color: #3c3b6e;
+  margin-bottom: 12px;
+}
+
+#signin-btn {
+  width: 100% !important ;
+}
+.ui-img3 {
+  float: right;
+  margin-bottom: 2rem;
+  width: 450px;
+}
+
+.login,
+.image {
+  min-height: 90vh;
+}
+.bg-image {
+  background-image: url("./assets/login-img.png");
+  background-size: cover;
+  background-position: center center;
+}
+.bg-image-signup {
+  background-size: cover;
+  background-position: center center;
+  background-image: url("./assets/signup-img.png");
+}
+
+/*categories.js*/
+.filter-btn {
+  margin-right: 12px;
+  margin-bottom: 22px;
+}
+
+.forgot-pwd{
+  color:crimson;
+  float: right;
+}
+
+.aboutus-page-text{
+  padding-top:40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: medium;
+}
+
+.p-shipping-returns {
+    margin: 42px;
+    margin-top: -15px;
 }
