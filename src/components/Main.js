@@ -22,9 +22,9 @@ const Main = () => {
           <Home />
         </Route>
 
-        <Route exact path="/capstone-project-outcast-solutions/home" component={Home} />
-          {/* <Home />
-        </Route> */}
+        <Route exact path="/home">
+          <Home />
+        </Route>
 
         <Route exact path="/capstone-project-outcast-solutions">
           <Home />
