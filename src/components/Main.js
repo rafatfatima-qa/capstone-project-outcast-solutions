@@ -22,15 +22,15 @@ const Main = () => {
           <Home />
         </Route>
 
-        <Route exact path="/capstone-project-outcast-solutions/home">
-          <Home />
-        </Route>
+        <Route exact path="/capstone-project-outcast-solutions/home" component={Home} />
+          {/* <Home />
+        </Route> */}
 
         <Route exact path="/capstone-project-outcast-solutions">
           <Home />
         </Route>
 
-        <Route path="/capstone-project-outcast-solutions/signin">
+        <Route path="/signin">
           <SignIn />
         </Route>
 
@@ -54,11 +54,11 @@ const Main = () => {
           <AddCart />
         </Route>
 
-        <Route exact path="/capstone-project-outcast-solutions/aboutus">
+        <Route exact path="/aboutus">
           <AboutUs />
         </Route>
 
-        <Route path="/capstone-project-outcast-solutions/contactus">
+        <Route path="/contactus">
           <ContactUs />
         </Route>
 
@@ -66,15 +66,15 @@ const Main = () => {
           <Radius />
         </Route>
 
-        <Route path="/capstone-project-outcast-solutions/policies">
+        <Route path="/policies">
           <Policies />
         </Route>
 
-        <Route path="/capstone-project-outcast-solutions/shippingpolicy">
+        <Route path="/shippingpolicy">
           <ShippingPolicy />
         </Route>
 
-        <Route path="/capstone-project-outcast-solutions/ReturnPolicy">
+        <Route path="/returnpolicy">
           <ReturnPolicy />
         </Route>
 
