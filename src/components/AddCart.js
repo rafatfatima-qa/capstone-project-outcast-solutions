@@ -7,17 +7,19 @@ import Col from "react-bootstrap/Col";
 import { Row } from "react-bootstrap";
 import Tabs from "react-bootstrap/Tabs";
 import Tab from "react-bootstrap/Tab";
-import Policies from "./Policies";
+import Details from "./Details";
+import Reviews from "./Reviews";
 import { ListGroup } from "react-bootstrap";
 import cylinder from "../assets/small-cylinder.png";
 import Tooltip from "react-bootstrap/Tooltip";
 import logo from "../assets/Logo1.png";
 import { useHistory } from "react-router-dom";
-​
+
 const AddCart = () => {
   let history = useHistory();
   const [count, setCount] = useState(1);
   const [show, setShow] = useState(true);
+  
   function addItem() {
     alert("Item added to Cart!");
     let totalItems = document.getElementById("cart");
@@ -46,7 +48,6 @@ const AddCart = () => {
       setCount(count - 1);
     }
   };
-​
   return (
     <>
       {/* <Button onClick={() => setShow(!true)}>Show Alert</Button>; */}
@@ -161,14 +162,14 @@ const AddCart = () => {
                     eventKey="home"
                     title="Description"
                   >
-                    <Policies />
+                    <Details />
                   </Tab>
                   <Tab
                     style={{ fontSize: "18px" }}
                     eventKey="profile"
                     title="Reviews"
                   >
-                    <Policies />
+                    <Reviews />
                   </Tab>
                 </Tabs>
               </Col>

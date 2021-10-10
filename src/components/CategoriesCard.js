@@ -29,7 +29,7 @@ const CategoriesCard = (props) => {
             <div>
               <button
                 className="feature-card-btn"
-                onClick={() => history.push("/Categories")}
+                onClick={() => history.push("/AddCart")}
               >
                 Details
               </button>

@@ -8,8 +8,6 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import SignUp from "./SignUp";
 import SignIn from "./SignIn";
 import ForgotPassword from "./ForgotPassword";
-import Fryers from "./Fryers";
-import Cylinders from "./Cylinders";
 import Categories from "./Categories";
 import AddCart from "./AddCart";
 import Radius from "./Radius";
@@ -28,7 +26,7 @@ const Main = () => {
           <Home />
         </Route>
 
-        <Route exact path="/website-outcast-solutions">
+        <Route exact path="/capstone-project-outcast-solutions">
           <Home />
         </Route>
 
@@ -46,14 +44,6 @@ const Main = () => {
 
         <Route path="/productlist">
           <ProductList />
-        </Route>
-
-        <Route path="/fryers">
-          <Fryers />
-        </Route>
-
-        <Route path="/cylinders">
-          <Cylinders />
         </Route>
 
         <Route path="/Categories">

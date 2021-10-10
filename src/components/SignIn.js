@@ -6,7 +6,7 @@ import { useHistory } from "react-router-dom";
 import { useState } from "react";
 import Profile from "./Profile";
 import Usericon from "../assets/user-icon.png";
-import UiImg3 from "../assets//ui-img3.png";
+import UiImg3 from "../assets/ui-img3.png";
 import UiImg2 from "../assets/ui-img2.png";
 const SignIn = () => {
   let history = useHistory();

@@ -6,13 +6,13 @@ import AddCart from "./AddCart";
 import { useHistory } from "react-router-dom";
 
 const Radius = () => {
-    let history = useHistory();
+  let history = useHistory();
   return (
     <Container>
-    <h3 style={{ color: "#3C3B6E" }} class="display-4">Propane Cylinder Delivery Options</h3>
-    <br />
-      <AddCart />
-
+      <h3 style={{ color: "#3C3B6E" }} class="display-4">
+        Propane Cylinder Delivery Options
+      </h3>
+      <br />
       <div className="custom-control custom-checkbox ml-3 mb-3">
         <Form.Group className="mb-3" id="formGridCheckbox">
           <Form.Check type="checkbox" label="Delivery Date No. 1" />
@@ -28,7 +28,6 @@ const Radius = () => {
       >
         Signup & Place Order
       </Button>
-
     </Container>
   );
 };

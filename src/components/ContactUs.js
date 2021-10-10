@@ -1,4 +1,3 @@
-import { Map, GoogleApiWrapper } from "google-maps-react";
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
@@ -8,13 +7,9 @@ import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 import FloatingLabel from "react-bootstrap/FloatingLabel";
 import { useHistory } from "react-router-dom";
-import MapSection from "../components/map/Map"; // import the map here
+// import MapSection from "../components/map/Map";
 
-const location = {
-  address: "1005 N.W. 119th Street, North Miami, FL",
-  lat: 25.884572674780078,
-  lng: -80.21524240740798,
-}; // our location object from earlier
+
 
 const ContactUs = () => {
   let history = useHistory();
@@ -24,9 +19,7 @@ const ContactUs = () => {
       <Container>
         <Card>
           <Card.Body>
-            <MapSection location={location} zoomLevel={17} />{" "}
-            {/* include it here */}
-            <Card.Text>
+           <Card.Text>
               <p className="aboutus-page-text mb-4">
                 <h3 style={{ color: "#3C3B6E" }} class="display-4">
                   Our Address
