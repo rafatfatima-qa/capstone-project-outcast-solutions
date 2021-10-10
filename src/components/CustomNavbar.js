@@ -10,7 +10,7 @@ const CustomNavbar = (props) => {
     <>
       <Navbar collapseOnSelect expand="lg">
         <Container>
-          <Navbar.Brand href="/Home">
+          <Navbar.Brand href="/home">
             <img
               alt=""
               src={logo}
@@ -26,36 +26,36 @@ const CustomNavbar = (props) => {
               {/* This is to put space between logo and header links*/}
             </Nav>
             <Nav>
-              <Nav.Link href="/Home">Home</Nav.Link>
-              <Nav.Link href="/OrderList">Orders</Nav.Link>
+              <Nav.Link href="/home">Home</Nav.Link>
+              <Nav.Link href="/orderList">Orders</Nav.Link>
               {/* <Nav.Link href="#pricing">Shipping & Returns</Nav.Link> */}
               <NavDropdown
                 title="Shipping & Returns"
                 id="collasible-nav-dropdown"
               >
-                <NavDropdown.Item href="/ReturnPolicy">
+                <NavDropdown.Item href="/returnPolicy">
                   Return Policy
                 </NavDropdown.Item>
-                <NavDropdown.Item href="/ShippingPolicy">
+                <NavDropdown.Item href="/shippingPolicy">
                   Shipping Policy
                 </NavDropdown.Item>
-                <NavDropdown.Item href="/Policies">
+                <NavDropdown.Item href="/policies">
                   Privacy Policy
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="/MorePolicies">
+                <NavDropdown.Item href="/morepolicies">
                   More Policies
                 </NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link href="/Aboutus">About Us</Nav.Link>
-              <Nav.Link href="/Contactus">Contact Us</Nav.Link>
-              <Nav.Link href="/SignIn">
+              <Nav.Link href="/aboutus">About Us</Nav.Link>
+              <Nav.Link href="/contactus">Contact Us</Nav.Link>
+              <Nav.Link href="/signIn">
                 <i class="fas fa-user-alt"></i>
               </Nav.Link>
-              <Nav.Link href="/Search">
+              <Nav.Link href="search">
                 <i class="fas fa-search"></i>
               </Nav.Link>
-              <Nav.Link href="/AddCart">
+              <Nav.Link href="/addCart">
                 <i class="fas fa-cart-plus"></i>(0)
               </Nav.Link>
             </Nav>
