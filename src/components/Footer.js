@@ -264,16 +264,16 @@ const Footer = () => {
           <Card.Body>
             <Card.Text>
               <div className="payment-methods-align-right">
-                <a href="https://www.paypal.com">
+                <a className = "footer" href="https://www.paypal.com">
                   <i class="fab fa-cc-paypal payment-methods-footer"></i>
                 </a>{" "}
-                <a href="https://www.paypal.com">
+                <a className = "footer" href="https://www.paypal.com">
                   <i class="fab fa-cc-visa payment-methods-footer"></i>
                 </a>{" "}
-                <a href="https://www.discover.com">
+                <a className = "footer" href="https://www.discover.com">
                   <i class="fab fa-cc-discover payment-methods-footer"></i>
                 </a>{" "}
-                <a href="https://www.mastercard.com">
+                <a className = "footer" href="https://www.mastercard.com">
                   <i class="fab fa-cc-mastercard payment-methods-footer"></i>
                 </a>
               </div>

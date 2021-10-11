@@ -19,7 +19,7 @@ const AddCart = () => {
   let history = useHistory();
   const [count, setCount] = useState(1);
   const [show, setShow] = useState(true);
-  
+
   function addItem() {
     alert("Item added to Cart!");
     let totalItems = document.getElementById("cart");

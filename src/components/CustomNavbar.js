@@ -4,14 +4,19 @@ import Nav from "react-bootstrap/Nav";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Container from "react-bootstrap/Container";
 import logo from "../assets/Logo1.png";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 
 const CustomNavbar = () => {
+
+  let history = useHistory();
+
   return (
     <>
       <Navbar collapseOnSelect expand="lg">
         <Container>
-          <Navbar.Brand href="/home">
+          {/* <Navbar.Brand href="/home"> */}
+          <Navbar.Brand onClick={() => history.push("/Home")}>
             <img
               alt=""
               src={logo}
@@ -23,42 +28,43 @@ const CustomNavbar = () => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              {" "}
+              {/* {" "} */}
               {/* This is to put space between logo and header links*/}
             </Nav>
             <Nav>
-              <Nav.Link href="/home">Home</Nav.Link>
-              <Nav.Link as={Link} to="./OrdersList"> Orders </Nav.Link>
+              <Nav.Link onClick={() => history.push("/Home")}></Nav.Link>
+              {/* <Nav.Link as={Link} to="./OrdersList"> Orders </Nav.Link> */}
               {/* <Nav.Link href="/orderList">Orders</Nav.Link> */}
+              <Nav.Link onClick={() => history.push("/OrderList")}>Orders</Nav.Link>
               {/* <Nav.Link href="#pricing">Shipping & Returns</Nav.Link> */}
               <NavDropdown
                 title="Shipping & Returns"
                 id="collasible-nav-dropdown"
               >
-                <NavDropdown.Item href="/returnPolicy">
+                <NavDropdown.Item onClick={() => history.push("/ReturnPolicy")}>
                   Return Policy
                 </NavDropdown.Item>
-                <NavDropdown.Item href="/shippingPolicy">
+                <NavDropdown.Item onClick={() => history.push("/ShippingPolicy")}>
                   Shipping Policy
                 </NavDropdown.Item>
-                <NavDropdown.Item href="/policies">
+                <NavDropdown.Item onClick={() => history.push("/Policies")}>
                   Privacy Policy
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="/morepolicies">
+                <NavDropdown.Item onClick={() => history.push("/MorePolicies")}>
                   More Policies
                 </NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link href="/aboutus">About Us</Nav.Link>
-              <Nav.Link as={Link} to="./ContactUs"> Contact Us </Nav.Link>
-              {/* <Nav.Link href="/contactus">Contact Us</Nav.Link> */}
-              <Nav.Link href="/signIn">
+              <Nav.Link onClick={() => history.push("/AboutUs")}>About Us</Nav.Link>
+              {/* <Button as={Link} to="./ContactUs"> Contact Us </Button> */}
+              <Nav.Link onClick={() => history.push("/ContactUs")}>Contact Us</Nav.Link>
+              <Nav.Link onClick={() => history.push("/SignIn")}>
                 <i class="fas fa-user-alt"></i>
               </Nav.Link>
-              <Nav.Link href="search">
+              <Nav.Link onClick={() => history.push("/Search")}>
                 <i class="fas fa-search"></i>
               </Nav.Link>
-              <Nav.Link href="/addCart">
+              <Nav.Link onClick={() => history.push("/AddCart")}>
                 <i class="fas fa-cart-plus"></i>(0)
               </Nav.Link>
             </Nav>
