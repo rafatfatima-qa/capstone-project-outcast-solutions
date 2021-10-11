@@ -1,7 +1,27 @@
 body {
   background-size: cover;
   background-position: top center;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; 
+  /* font-size: 12px; */
+}
+
+.main-log{
+  margin-top:10px;
+}
+.navbar-alignment{
+  float: right;
+}
+.navbar-links{
+  float: right;
+  color:#7a1616;
+  padding-top: 10px;
+  padding-left: 9px;
+  font-size: 16px;
+}
+
+.navbar-links:hover{
+  color:#7a1616;
+  font-weight:500;
 }
 
 .App {
@@ -116,8 +136,6 @@ svg:hover {
   cursor: pointer;
 }
 
-
-
 .payment-methods-footer {
   font-size: 30px;
   cursor: pointer;
@@ -136,8 +154,8 @@ svg:hover {
   border: none;
   border-radius: 0;
 }
-p {
-  font-size: smaller;
+.footer-text {
+  font-size: small;
 }
 
 a {
