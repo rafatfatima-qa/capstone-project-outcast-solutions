@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/capstone-project-outcast-solutions/static/css/main.3e3248be.chunk.css",
-    "main.js": "/capstone-project-outcast-solutions/static/js/main.3a193c4d.chunk.js",
-    "main.js.map": "/capstone-project-outcast-solutions/static/js/main.3a193c4d.chunk.js.map",
+    "main.js": "/capstone-project-outcast-solutions/static/js/main.5e6304e8.chunk.js",
+    "main.js.map": "/capstone-project-outcast-solutions/static/js/main.5e6304e8.chunk.js.map",
     "runtime-main.js": "/capstone-project-outcast-solutions/static/js/runtime-main.f90a09d1.js",
     "runtime-main.js.map": "/capstone-project-outcast-solutions/static/js/runtime-main.f90a09d1.js.map",
     "static/css/2.c1256375.chunk.css": "/capstone-project-outcast-solutions/static/css/2.c1256375.chunk.css",
-    "static/js/2.b2b54a74.chunk.js": "/capstone-project-outcast-solutions/static/js/2.b2b54a74.chunk.js",
-    "static/js/2.b2b54a74.chunk.js.map": "/capstone-project-outcast-solutions/static/js/2.b2b54a74.chunk.js.map",
+    "static/js/2.b79d3232.chunk.js": "/capstone-project-outcast-solutions/static/js/2.b79d3232.chunk.js",
+    "static/js/2.b79d3232.chunk.js.map": "/capstone-project-outcast-solutions/static/js/2.b79d3232.chunk.js.map",
     "static/js/3.4d1c7662.chunk.js": "/capstone-project-outcast-solutions/static/js/3.4d1c7662.chunk.js",
     "static/js/3.4d1c7662.chunk.js.map": "/capstone-project-outcast-solutions/static/js/3.4d1c7662.chunk.js.map",
     "index.html": "/capstone-project-outcast-solutions/index.html",
     "static/css/2.c1256375.chunk.css.map": "/capstone-project-outcast-solutions/static/css/2.c1256375.chunk.css.map",
     "static/css/main.3e3248be.chunk.css.map": "/capstone-project-outcast-solutions/static/css/main.3e3248be.chunk.css.map",
-    "static/js/2.b2b54a74.chunk.js.LICENSE.txt": "/capstone-project-outcast-solutions/static/js/2.b2b54a74.chunk.js.LICENSE.txt",
+    "static/js/2.b79d3232.chunk.js.LICENSE.txt": "/capstone-project-outcast-solutions/static/js/2.b79d3232.chunk.js.LICENSE.txt",
     "static/media/Logo1.acabe63a.png": "/capstone-project-outcast-solutions/static/media/Logo1.acabe63a.png",
     "static/media/google-btn.6a0669cc.png": "/capstone-project-outcast-solutions/static/media/google-btn.6a0669cc.png",
     "static/media/home-image.c90b201c.svg": "/capstone-project-outcast-solutions/static/media/home-image.c90b201c.svg",
@@ -27,8 +27,8 @@
   "entrypoints": [
     "static/js/runtime-main.f90a09d1.js",
     "static/css/2.c1256375.chunk.css",
-    "static/js/2.b2b54a74.chunk.js",
+    "static/js/2.b79d3232.chunk.js",
     "static/css/main.3e3248be.chunk.css",
-    "static/js/main.3a193c4d.chunk.js"
+    "static/js/main.5e6304e8.chunk.js"
   ]
 }
