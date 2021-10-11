@@ -4,8 +4,9 @@ import Nav from "react-bootstrap/Nav";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Container from "react-bootstrap/Container";
 import logo from "../assets/Logo1.png";
+import { Link } from "react-router-dom";
 
-const CustomNavbar = (props) => {
+const CustomNavbar = () => {
   return (
     <>
       <Navbar collapseOnSelect expand="lg">
@@ -27,7 +28,8 @@ const CustomNavbar = (props) => {
             </Nav>
             <Nav>
               <Nav.Link href="/home">Home</Nav.Link>
-              <Nav.Link href="/orderList">Orders</Nav.Link>
+              <Nav.Link as={Link} to="./OrdersList"> Orders </Nav.Link>
+              {/* <Nav.Link href="/orderList">Orders</Nav.Link> */}
               {/* <Nav.Link href="#pricing">Shipping & Returns</Nav.Link> */}
               <NavDropdown
                 title="Shipping & Returns"
@@ -48,7 +50,8 @@ const CustomNavbar = (props) => {
                 </NavDropdown.Item>
               </NavDropdown>
               <Nav.Link href="/aboutus">About Us</Nav.Link>
-              <Nav.Link href="/contactus">Contact Us</Nav.Link>
+              <Nav.Link as={Link} to="./ContactUs"> Contact Us </Nav.Link>
+              {/* <Nav.Link href="/contactus">Contact Us</Nav.Link> */}
               <Nav.Link href="/signIn">
                 <i class="fas fa-user-alt"></i>
               </Nav.Link>
