@@ -8,7 +8,8 @@ const AboutUs = () => {
     <>
       <Container>
         <Card>
-          <Card.Img variant="top" src={map} />
+          <Card.Img variant="top" src={map} width="150"
+          height="300" />
           <Card.Body>
             <Card.Text>
               <p className="aboutus-page-text">

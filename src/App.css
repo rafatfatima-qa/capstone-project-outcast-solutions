@@ -6,23 +6,23 @@ body {
 }
 
 .main-log{
-  margin-top:10px;
+  cursor:pointer;
 }
-.navbar-alignment{
+/* .navbar-alignment{
   float: right;
-}
+} */
 .navbar-links{
-  float: right;
-  color:#7a1616;
-  padding-top: 10px;
-  padding-left: 9px;
+  /* float: right; */
+  /* color:#7a1616; */
+  /* padding-top: 10px;
+  padding-left: 9px; */
   font-size: 16px;
 }
 
-.navbar-links:hover{
+/* .navbar-links:hover{
   color:#7a1616;
   font-weight:500;
-}
+} */
 
 .App {
   text-align: center;

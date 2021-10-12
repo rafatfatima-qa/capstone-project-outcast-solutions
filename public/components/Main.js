@@ -4,7 +4,7 @@ import Policies from "./Policies";
 import Profile from "./Profile";
 import Home from "./Home";
 import ProductList from "./ProductList";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 import SignUp from "./SignUp";
 import SignIn from "./SignIn";
 import ForgotPassword from "./ForgotPassword";
@@ -13,16 +13,18 @@ import AddCart from "./AddCart";
 import Radius from "./Radius";
 import ShippingPolicy from "./ShippingPolicy";
 import ReturnPolicy from "./ReturnPolicy";
+import OrderList from "./OrderList";
+import Search from "./Search";
 
 const Main = () => {
   return (
-    <Router>
+    
       <Switch>
         <Route exact path="/">
           <Home />
         </Route>
 
-        <Route exact path="/home">
+        <Route exact path="/Home">
           <Home />
         </Route>
 
@@ -30,59 +32,67 @@ const Main = () => {
           <Home />
         </Route>
 
-        <Route path="/signin">
+        <Route path="/SignIn">
           <SignIn />
         </Route>
 
-        <Route path="/forgotpassword">
+        <Route path="/ForgotPassword">
           <ForgotPassword />
         </Route>
 
-        <Route path="/signup">
+        <Route path="/SignUp">
           <SignUp />
         </Route>
 
-        <Route path="/productlist">
+        <Route path="/ProductList">
           <ProductList />
+        </Route>
+
+        <Route path="/Search">
+          <Search />
         </Route>
 
         <Route path="/Categories">
           <Categories />
         </Route>
 
-        <Route path="/addcart">
+        <Route path="/AddCart">
           <AddCart />
         </Route>
 
-        <Route exact path="/aboutus">
+        <Route exact path="/AboutUs">
           <AboutUs />
         </Route>
 
-        <Route path="/contactus">
+        <Route path="/ContactUs">
           <ContactUs />
         </Route>
 
-        <Route path="/radius">
+        <Route path="/Radius">
           <Radius />
         </Route>
 
-        <Route path="/policies">
+        <Route path="/Policies">
           <Policies />
         </Route>
 
-        <Route path="/shippingpolicy">
+        <Route path="/ShippingPolicy">
           <ShippingPolicy />
         </Route>
 
-        <Route path="/returnpolicy">
+        <Route path="/ReturnPolicy">
           <ReturnPolicy />
         </Route>
 
-        <Route path="/profile">
+        <Route path="/OrderList">
+          <OrderList />
+        </Route>
+
+        <Route path="/Profile">
           <Profile />
         </Route>
       </Switch>
-    </Router>
+    
   );
 };
 
