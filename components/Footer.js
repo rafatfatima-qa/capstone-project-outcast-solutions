@@ -27,7 +27,7 @@ const Footer = () => {
             <div className="footer-column-heading">
               <Card.Title>Categories</Card.Title>
 
-              <Card.Text>
+              <Card.Text className = "footer-text">
                 <ul className="list-unstyled">
                   <li>
                     <a href="/Categories" target="_blank">
@@ -71,7 +71,7 @@ const Footer = () => {
             <div className="footer-column-heading">
               <Card.Title>Quick Links</Card.Title>
 
-              <Card.Text>
+              <Card.Text className = "footer-text">
                 <ul className="list-unstyled">
                   <li>
                     <a href="/AboutUs" target="_blank">
@@ -105,7 +105,7 @@ const Footer = () => {
             <div className="footer-column-heading">
               <Card.Title>Address</Card.Title>
 
-              <Card.Text>
+              <Card.Text className = "footer-text">
                 Got Questions? Call us 24/7! : +1786-290-3000 Visit us anytime!
                 1005 N.W. 119th Street, North Miami, FL 33168
                 <div>
@@ -251,7 +251,7 @@ const Footer = () => {
         <Card className="footer mb-0">
           <Card.Body>
             <Card.Text>
-              <p>
+              <p className = "footer-text">
                 All Rights Reserved © 24/7 Propane | Developed and Managed by
                 Outcast Solutions
               </p>
@@ -264,16 +264,16 @@ const Footer = () => {
           <Card.Body>
             <Card.Text>
               <div className="payment-methods-align-right">
-                <a href="https://www.paypal.com">
+                <a className = "footer" href="https://www.paypal.com">
                   <i class="fab fa-cc-paypal payment-methods-footer"></i>
                 </a>{" "}
-                <a href="https://www.paypal.com">
+                <a className = "footer" href="https://www.paypal.com">
                   <i class="fab fa-cc-visa payment-methods-footer"></i>
                 </a>{" "}
-                <a href="https://www.discover.com">
+                <a className = "footer" href="https://www.discover.com">
                   <i class="fab fa-cc-discover payment-methods-footer"></i>
                 </a>{" "}
-                <a href="https://www.mastercard.com">
+                <a className = "footer" href="https://www.mastercard.com">
                   <i class="fab fa-cc-mastercard payment-methods-footer"></i>
                 </a>
               </div>
